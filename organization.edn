@@ -1,0 +1,13 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only — no personal names.
+{:ooyake-id "gov.plw"
+  :official-url "https://www.palaugov.pw/"
+  :name-en "Palau"
+  :name-local "Palau"
+  :wikidata "Q695"
+  :head-role "public procurement authority"
+  :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+  :contact-page "https://www.wikidata.org/wiki/Q515229"
+  :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)"
+  :hq {:line-en "Ngerulmud" :country "plw" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q515229" :last-verified "2026-07-10" :sourcing "authoritative"}
+}
