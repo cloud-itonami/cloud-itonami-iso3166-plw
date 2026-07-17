@@ -1,0 +1,12 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "plw.dish.fruit-bat-soup", :name "Fruit bat soup", :country "PLW", :kind :dish, :summary "Described as a Palauan culinary delicacy in the \"Cuisine\" section of the Palau country article.", :url "https://en.wikipedia.org/wiki/Palau", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "plw.dish.tama", :name "Tama", :country "PLW", :kind :dish, :summary "A dessert developed in Palau, per the \"Cuisine\" section of the Palau country article.", :url "https://en.wikipedia.org/wiki/Palau", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "plw.beverage.coconut-toddy", :name "Coconut toddy", :country "PLW", :kind :beverage, :summary "A traditional alcoholic drink made from a coconut on the tree, listed among local Palauan drinks in the \"Cuisine\" section of the Palau country article, alongside a drink made from kava root and the chewing of betel nuts.", :url "https://en.wikipedia.org/wiki/Palau", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "plw.craft.bai", :name "Bai", :country "PLW", :kind :craft, :summary "Traditional Palauan meeting houses called bai served as the most important buildings in villages, featuring no dividing walls and decorated with depictions of Palauan legends, with seating for governing elders arranged by rank.", :url "https://en.wikipedia.org/wiki/Bai_(Palau)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Rock_Islands_(Palau)", :id "plw.heritage.rock-islands-southern-lagoon", :kind :heritage, :name-local "Chelbacheb", :country "PLW", :retrieved-at "2026-07-17", :summary "The Rock Islands of Palau (Chelbacheb), a collection of several hundred small limestone or coral uprises, were declared a UNESCO World Heritage Site in 2012 as the Rock Islands Southern Lagoon.", :name "Rock Islands Southern Lagoon", :url-provenance :wikipedia-en}
+]
