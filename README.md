@@ -61,7 +61,7 @@ department.
 | Governor | `:market-entry-compliance-governor` |
 | Ops | `:engagement/intake` · `:jurisdiction/assess` · `:filing/draft` · `:filing/submit` |
 | Flagship HARD check | `reserved-sector-violation?` (Foreign Investment Act, PNCA Title 28 §105: a foreign-invested engagement's own declared business sector and ownership composition are independently recomputed against the Act's two-tier reserved-sectors gate -- see the namespace docstrings in `src/marketentry/{facts,registry,governor}.cljc`) |
-| Compliance catalog | `src/statute/facts.cljc` -- Corporations Act (PNCA Title 12 Division 1), Preference and Wages (PNCA Title 13 Division 3 Chapter 13) |
+| Compliance catalog | `src/statute/facts.cljk` -- Corporations Act (PNCA Title 12 Division 1), Preference and Wages (PNCA Title 13 Division 3 Chapter 13) |
 | Tests | `clojure -M:dev:test` |
 | Demo | `clojure -M:dev:run` |
 
@@ -86,7 +86,7 @@ as `cloud-itonami-iso3166-fsm`/`-grd`/`-caf`/`-btn`/`-bwa`/`-est`:
   including the honestly preserved open Board-discretion catch-all in
   §105(a)(7)/(b)(6) this catalog does not attempt to enumerate beyond
   the statute's own named categories).
-- `src/statute/facts.cljc` -- general-law catalog: the Corporations Act
+- `src/statute/facts.cljk` -- general-law catalog: the Corporations Act
   (PNCA Title 12 Division 1, §§101-112, RPPL 11-10 as amended RPPL
   11-24) and Preference and Wages (PNCA Title 13 Division 3 Chapter 13,
   §§1301-1306). Smaller than some siblings' catalogs -- a separate
@@ -162,7 +162,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Palau:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
