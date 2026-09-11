@@ -62,8 +62,8 @@ department.
 | Ops | `:engagement/intake` · `:jurisdiction/assess` · `:filing/draft` · `:filing/submit` |
 | Flagship HARD check | `reserved-sector-violation?` (Foreign Investment Act, PNCA Title 28 §105: a foreign-invested engagement's own declared business sector and ownership composition are independently recomputed against the Act's two-tier reserved-sectors gate -- see the namespace docstrings in `src/marketentry/{facts,registry,governor}.cljc`) |
 | Compliance catalog | `src/statute/facts.cljk` -- Corporations Act (PNCA Title 12 Division 1), Preference and Wages (PNCA Title 13 Division 3 Chapter 13) |
-| Tests | `clojure -M:dev:test` |
-| Demo | `clojure -M:dev:run` |
+| Tests | `kbb -M:dev:test` |
+| Demo | `kbb -M:dev:run` |
 
 `:filing/submit` is never in any phase's `:auto` set -- human sign-off
 is structural, not a rollout milestone.
